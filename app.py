@@ -1,7 +1,6 @@
 import dash
 from dash.dependencies import Input, Output, State
-import dash_core_components as dcc
-import dash_html_components as html
+import plotly.express as px
 import dash_table
 import json
 import urllib.request
@@ -19,7 +18,8 @@ from flask import send_file
 '''
 See https://www.openfigi.com/api for more information.
 '''
-
+iso = pd.read_csv("ExchCode_ISOcountry.csv")
+dict_iso_name = dict(zip(iso['EQUITY EXCH CODE'], iso['ISO COUNTRY']))
 openfigi_apikey = 'df45204d-af8e-4753-9015-2ff4056da61a'  # Put API Key here
 import csv
 import dash_html_components as html
@@ -153,6 +153,12 @@ def job_results_handler(jobs, job_results,dataframe):
         df['Composite Figis'] = composite_figis_str
         df['Ticker'] = ticker_figis_str
         df['Exch Code'] = exchCode_figis_str
+        try:
+            df['Exch Code'] = df['Exch Code'].str.replace(' ', '')
+            df = df.drop_duplicates(subset='Composite Figis', keep="last")  # ?
+            df['Exch Code'] = df['Exch Code'].apply(lambda x: dict_iso_name[x])
+        except:
+            print("something wrong with the input")
         dataframe = dataframe.append(df)
     dataframe = dataframe.reset_index(drop=True)
     return dataframe
@@ -165,6 +171,7 @@ def get_info(input_value):
     temp_dict['idType'] = 'ID_SEDOL'
     job_results = map_jobs([temp_dict])
     dataframe_final = job_results_handler([temp_dict], job_results, dataframe)
+    #ExchCode_ISOcountry.csv
     dataframe_final = dataframe_final.reset_index(drop=True)
     return dataframe_final
 
@@ -174,7 +181,7 @@ html.Div(
                 [
     dcc.Input(id='my-id', value='B17KC69', type="text"),
     html.Button('Search', id='button'),
-    dash_table.DataTable(id='datatable-first')],className="six columns")
+    dash_table.DataTable(id='datatable-first')],className="six columns"),
 ],
         className="page",))
 
@@ -212,7 +219,7 @@ app.layout = html.Div(
     [dcc.Location(id="url", refresh=False), html.Div(id="page-content")]
 )
 
-# Update page
+
 @app.server.route('/download_excel/')
 def download_excel():
     #Create DF
@@ -246,15 +253,11 @@ def display_page(pathname):
 )
 def update_output_div(n_clicks, input_value):
     df = get_info(input_value)
+    df = df.drop(columns=['Sedol'])
     columns = [
         {"name": i, "id": i} for i in sorted(df.columns)
     ]
     return df.to_dict('records'),columns
-
-
-
-
-
 
 @app.callback([Output('datatable-upload-container', 'data'),Output('datatable-upload-container', 'columns')],
               [Input('datatable-upload', 'contents')],
@@ -285,6 +288,7 @@ def update_output(contents, filename):
     dataframe_global = dataframe_final
     return dataframe_final.to_dict('records'),columns
 
+
 @app.callback(
     [Output('download-link', 'href')],
     [Input('datatable-upload', 'contents')])
@@ -297,4 +301,4 @@ def update_download_link(filter_value):
     return csv_string
 
 if __name__ == '__main__':
-    app.run_server(5008)
+    app.run_server(5003)

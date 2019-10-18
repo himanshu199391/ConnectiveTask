@@ -9,6 +9,9 @@ See https://www.openfigi.com/api for more information.
 openfigi_apikey = 'df45204d-af8e-4753-9015-2ff4056da61a'  # Put API Key here
 import csv
 
+iso = pd.read_csv("ExchCode_ISOcountry.csv")
+dict_iso_name = dict(zip(iso['EQUITY EXCH CODE'], iso['ISO COUNTRY']))
+
 
 
 
@@ -73,6 +76,9 @@ def job_results_handler(jobs, job_results,dataframe):
         df['Composite Figis'] = composite_figis_str
         df['Ticker'] = ticker_figis_str
         df['Exch Code'] = exchCode_figis_str
+        df['Exch Code'] = df['Exch Code'].str.replace(' ', '')
+        df=df.drop_duplicates(subset='Composite Figis', keep="last") #?
+        df['Exch Code'] = df['Exch Code'].apply(lambda x: dict_iso_name[x])
         dataframe = dataframe.append(df)
     dataframe = dataframe.reset_index(drop=True)
     return dataframe

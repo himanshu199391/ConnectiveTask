@@ -1,0 +1,336 @@
+,EQUITY EXCH CODE,ISO COUNTRY
+0,AJ,South Africa
+1,PF,Australia
+2,UP,United States
+3,AQ,Australia
+4,QE,France
+5,QX,United Kingdom
+6,EB,United Kingdom
+7,UF,United States
+8,VY,United States
+9,RB,Belarus
+10,E2,Netherlands
+11,MU,Mexico
+12,XB,United Kingdom
+13,B3,United Kingdom
+14,B1,United Kingdom
+16,XV,United Kingdom
+17,AZ,Azerbaijan
+18,B4,Netherlands
+20,BN,Brazil
+21,BS,Brazil
+22,BV,Brazil
+23,BR,Brazil
+24,BO,Brazil
+25,X2,Netherlands
+26,UO,United States
+27,AH,Australia
+28,JI,Japan
+29,IX,United Kingdom
+30,XC,United Kingdom
+31,TX,Canada
+32,DV,Canada
+33,DL,Canada
+34,I2,Netherlands
+35,DD,Denmark
+37,DU,United Arab Emirates
+38,QD,Qatar
+39,X1,Netherlands
+40,VJ,United States
+41,VK,United States
+44,AA,Greece
+45,TE,Italy
+46,GW,Germany
+47,BW,Switzerland
+50,FF,Finland
+51,SF,Sweden
+53,TL,Gibraltar
+54,HM,Italy
+55,XT,Greece
+56,VH,Viet Nam
+57,UI,United States
+59,VF,United States
+62,RF,Iceland
+63,L1,Ireland
+64,TK,Canada
+65,L3,United Kingdom
+66,DG,Canada
+67,MX,Maldives
+69,TR,Canada
+70,TV,Canada
+71,TO,Canada
+85,IG,India
+86,MQ,Malaysia
+87,RX,Russian Federation
+88,RN,Russian Federation
+89,RP,Russian Federation
+100,M0,France
+101,IM,Italy
+102,IC,Italy
+103,XI,Italy
+104,IF,Italy
+109,PD,Poland
+110,PG,Germany
+111,GZ,Germany
+112,NJ,Nigeria
+113,QF,Canada
+114,QH,Canada
+115,QG,Canada
+116,EI,Egypt
+117,NS,Norway
+118,TG,Canada
+119,UV,United States
+121,UZ,Ukraine
+122,QU,Ukraine
+123,PQ,United States
+124,CJ,Canada
+125,TT,"Taiwan, Province of China"
+126,RW,Rwanda
+127,RR,Russian Federation
+128,RT,Russian Federation
+129,JE,Japan
+130,JW,Japan
+133,H1,Hong Kong
+134,S1,United Kingdom
+135,A0,United Kingdom
+136,SI,Australia
+138,H2,Hong Kong
+139,UT,United States
+141,XZ,United Kingdom
+142,T2,United Kingdom
+143,SZ,Seychelles
+144,TQ,United Kingdom
+146,T1,Netherlands
+147,X9,Netherlands
+148,WT,Netherlands
+150,TN,Canada
+151,TA,Canada
+152,AP,Greece
+153,UD,United States
+154,DH,United Arab Emirates
+156,AG,Algeria
+157,JR,Jordan
+158,,Netherlands
+160,AY,Armenia
+161,UA,United States
+162,AT,Australia
+164,GA,Greece
+165,BM,Bahamas
+166,BA,Barbados
+167,BI,Bahrain
+169,SB,Spain
+170,CE,Chile
+172,AM,Argentina
+173,HO,Honduras
+174,BH,Bermuda
+175,AX,Angola
+176,SG,Serbia
+177,GB,Germany
+179,LB,Lebanon
+180,SO,Spain
+181,TB,Thailand
+182,BK,Bosnia and Herzegovina
+183,CR,Costa Rica
+184,CX,Colombia
+185,VB,"Bolivia, Plurinational State of"
+186,IB,India
+187,UB,United States
+188,BG,Botswana
+189,SK,Slovakia
+190,SR,Switzerland
+191,BB,Belgium
+193,IA,Côte d'Ivoire
+194,BC,Côte d'Ivoire
+195,ZS,Côte d'Ivoire
+196,RE,Romania
+198,HB,Hungary
+199,XH,Hungary
+200,AF,Argentina
+201,AC,Argentina
+202,AS,Argentina
+203,BU,Bulgaria
+204,VR,Cape Verde
+206,EC,Egypt
+208,VS,"Venezuela, Bolivarian Republic of"
+209,MC,Morocco
+210,KY,Cayman Islands
+213,CSE,Bangladesh
+214,UM,United States
+215,GU,Guernsey
+216,JY,Guernsey
+218,UC,United States
+219,CF,Canada
+220,SL,Sri Lanka
+221,DC,Denmark
+223,CY,Cyprus
+224,KH,Cambodia
+225,DS,Canada
+226,DT,Canada
+227,DM,Canada
+228,DK,Canada
+229,DJ,Canada
+230,DN,Canada
+231,TZ,"Tanzania, United Republic of"
+232,IH,India
+233,DB,United Arab Emirates
+234,BD,Bangladesh
+238,SY,Syrian Arab Republic
+239,DE,Cameroon
+240,ID,Ireland
+241,XF,Ireland
+242,GD,Germany
+243,YC,Cyprus
+244,EK,Saint Kitts and Nevis
+245,AI,Saint Kitts and Nevis
+246,NX,Saint Kitts and Nevis
+247,BQ,Germany
+248,GY,Germany
+249,GQ,Germany
+250,GE,Germany
+251,GT,Germany
+252,JF,Japan
+253,DF,Denmark
+254,GF,Germany
+255,XD,Germany
+256,TH,Germany
+257,GN,Ghana
+258,GG,Georgia
+259,GL,Guatemala
+260,EG,Ecuador
+261,GH,Germany
+262,GI,Germany
+263,FH,Finland
+264,HK,Hong Kong
+265,VU,Viet Nam
+266,IR,Iceland
+267,TW,Canada
+268,IJ,Indonesia
+269,IQ,Iraq
+270,UL,United States
+271,TI,Turkey
+272,TF,Turkey
+273,TS,Turkey
+274,T0,Turkey
+275,JA,Jamaica
+276,JQ,Japan
+277,SJ,South Africa
+278,PK,Pakistan
+279,KZ,Kazakhstan
+280,KF,"Korea, Republic of"
+283,MK,Malaysia
+284,KE,"Korea, Republic of"
+285,KP,"Korea, Republic of"
+286,KQ,"Korea, Republic of"
+287,KB,Kyrgyzstan
+288,KK,Kuwait
+289,LS,Lao People's Democratic Republic
+290,LD,United Kingdom
+292,PE,Peru
+293,PL,Portugal
+295,LH,Lithuania
+296,SV,Slovenia
+297,XJ,Slovenia
+298,LN,United Kingdom
+299,LI,United Kingdom
+301,EU,United Kingdom
+302,E1,United Kingdom
+303,XL,United Kingdom
+305,LO,United Kingdom
+306,LY,Libya
+307,ZL,Zambia
+308,LX,Luxembourg
+310,SN,Spain
+311,SQ,Spain
+312,MS,"Macedonia, the Former Yugoslav Republic of"
+313,MV,Malta
+314,NC,Nicaragua
+315,MZ,Mozambique
+316,MP,Mauritius
+319,MF,Mexico
+320,UY,Uruguay
+321,ME,Montenegro
+322,MB,"Moldova, Republic of"
+326,MW,Malawi
+327,GM,Germany
+328,OM,Oman
+329,KN,Kenya
+330,NW,Namibia
+332,UR,United States
+334,AO,Australia
+335,NK,Nepal
+336,NG,Sweden
+337,XG,Sweden
+338,JN,Japan
+339,UW,United States
+340,UQ,United States
+341,NL,Nigeria
+342,IS,India
+343,UN,United States
+344,NZ,New Zealand
+346,JO,Japan
+348,NO,Norway
+349,XN,Norway
+350,UU,United States
+351,XO,Sweden
+352,PS,"Palestine, State of"
+353,FP,France
+354,UX,United States
+355,PM,Philippines
+357,PZ,United Kingdom
+358,PB,Papua New Guinea
+360,PO,Ireland
+361,CK,Czech Republic
+362,CD,Czech Republic
+363,KL,Czech Republic
+364,PP,Panama
+365,SX,Switzerland
+366,QT,Germany
+367,EQ,Ecuador
+368,RQ,Romania
+370,LG,Latvia
+371,RC,Czech Republic
+374,JS,Japan
+375,KA,Sweden
+376,AB,Saudi Arabia
+377,JU,Japan
+378,C2,China
+379,SP,Singapore
+382,CC,Chile
+383,CS,China
+384,CG,China
+386,XE,United Kingdom
+387,XM,United Kingdom
+388,FS,Fiji
+389,C1,China
+390,BT,Bosnia and Herzegovina
+391,VM,Viet Nam
+392,ZU,Uzbekistan
+393,SS,Sweden
+394,GS,Germany
+395,XS,Germany
+396,EL,El Salvador
+397,SD,Swaziland
+398,SE,Switzerland
+399,IT,Israel
+400,TT,"Taiwan, Province of China"
+401,ET,Estonia
+402,JG,Japan
+403,IE,"Iran, Islamic Republic of"
+404,AL,Albania
+405,JT,Japan
+408,TP,Trinidad and Tobago
+409,CT,Canada
+410,CV,Canada
+411,TU,Tunisia
+412,UK,Ukraine
+413,S2,United Kingdom
+414,UG,Uganda
+415,MO,Mongolia
+416,SA,Spain
+417,PN,Paraguay
+418,VX,Switzerland
+419,PW,Poland
+420,AV,Austria
+421,XA,Austria
+422,ZA,Croatia
+423,ZH,Zimbabwe
